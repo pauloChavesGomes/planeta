@@ -3,6 +3,7 @@ package com.planeta;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+
 @SpringBootApplication
 public class PlanetaApplication {
 
@@ -10,5 +11,7 @@ public class PlanetaApplication {
 		SpringApplication.run(PlanetaApplication.class, args);
 		
 	}
+	
+	
 
 }
