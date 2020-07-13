@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT -Dspring.profiles.ative=prod -jar target/planeta-0.0.1-SNAPSHOT.jar
+web: java -Dserver.port=8888 -Dspring.profiles.ative=prod -jar target/planeta-0.0.1-SNAPSHOT.jar
