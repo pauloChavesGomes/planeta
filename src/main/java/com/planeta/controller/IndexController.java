@@ -8,8 +8,9 @@ import org.springframework.web.bind.annotation.RestController;
 @ComponentScan ( basePackages = { "com.planeta" })
 public class IndexController {
 	
-	@RequestMapping(path = "/")
+	@RequestMapping("/")
 	public String index() {
+		
 		return "index";
 	}
 	
